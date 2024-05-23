@@ -1,0 +1,41 @@
+/* src/Card.css */
+.card {
+    border: 2px solid #ddd;
+    height: 360px;
+    width: 250px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 200px;
+    max-height: 500px;
+    margin: 16px;
+    transition: transform 0.2s;
+    display: inline-block;
+    /* background-image: url(./braclet.webp);
+    background-size: cover; */
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; 
+  }
+  
+  .card-content {
+    padding: 16px;
+  }
+  
+  .card-title {
+    margin: 0 0 8px;
+    font-size: 1.5em;
+  }
+  
+  .card-text {
+    margin: 0;
+    color: #555;
+  }
+  
