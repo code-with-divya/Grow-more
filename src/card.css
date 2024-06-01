@@ -1,4 +1,8 @@
 /* src/Card.css */
+/* .body{
+   background-image: url(./braclet.webp);
+    background-size: cover; 
+} */
 .card {
     border: 2px solid #ddd;
     height: 360px;

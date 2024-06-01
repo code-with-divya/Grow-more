@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.css'
-function Nav() 
+function Navbar() 
 {
+
     return(
     
 
@@ -39,4 +40,4 @@ function Nav()
 }
 
 
-export default nav;
+export default Navbar;
